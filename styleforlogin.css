@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+body {
+  overflow-x: hidden;
+  font-family: 'Titillium Web', sans-serif;
+  color: black;
+  background-color: #ffcd94;
+}
+.all-body-shadow{
+  background-color: rgba(0,0,0, 0.35);
+}
+h3{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+/*--- Nav Scrolling Offset --*/
+.offset:before {
+  height: 4rem;
+  margin-top: -4rem;
+  content: "";
+  display: block;
+}
+
+/*--- Extra Bootstrap Column Padding --*/
+[class*="col-"] {
+  padding: 1rem;
+}
+
+/*============= NAVIGATION =============*/
+
+.navbar {
+  padding: .7rem 1rem;
+  text-transform: uppercase;
+  font-size: .9rem;
+  font-weight: 700;
+  letter-spacing: .1rem;
+  transition: background-color .5s ease 0s;
+}
+.navbar-brand {
+  height: auto;
+  padding: 0 auto; 
+  color:#ffcd94;
+  transition: transform .3s ease;
+}
+.navbar-brand:hover {
+transform: scale(1.3);
+  color:white;
+}
+.svg-inline--fa.fa-w-14 {
+  color: white;
+  font-size: 1.6rem;
+}
+.navbar-nav li {
+  padding-right: .8rem;
+}
+.navbar-nav .nav-link {
+  color: white;
+  padding-top: .8rem;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+  color: #ffcd94;
+}
+.navbar.solid {
+  background: rgba(0, 0, 0, 0.7)!important;
+  transition: background-color 1s ease 0s;
+}
+
+/*--- Clients Booking Form --*/
+.content{
+  background: #fff;
+  max-width: 670px;
+  margin: 30px auto;
+  padding:  20px 30px;
+  border-radius: 10px 120px 10px 10px;
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+
+.content ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+.content li{
+  padding: 20px;
+  background: #f6f6f6;
+  font-size: 20px;
+  color: black;
+  position: relative;
+  border-bottom: 1px solid #e6e6e6;
+  height: 100px;
+}
+
+.content li:nth-child(even){
+  padding: 20px;
+  background: #f2f2f2;
+}
+
+.content li span{
+  display: block;
+}
+
+.content li span:nth-child(2){
+  font-size: 16px;
+  margin-top: 6px;
+  color: #999;
+}
+
+.content li div{
+  position: absolute;
+  top: 0;
+  right: 0px;
+  background: rgba(255,255,255,0.6);
+  width: 40px;
+  text-align: center;
+  padding: 10px 0;
+  font-weight:  bold;
+  cursor:  pointer;
+}
+
+.content form input{
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  border: 0;
+  border-bottom: 1px solid #eee;
+  margin: 0 1%;
+  padding: 10px;
+  display: block;
+  box-sizing: border-box;
+  font-size: 18px;
+  color:black;
+  
+}
+::placeholder {
+  color: Black;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: black;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: black;
+}
+
+.content form input:focus{
+  outline: none;
+  border-bottom: 3px solid #ffcd94;
+  padding-bottom: 8px;
+  transition: all ease 0.2s;
+}
+
+.content form:after{
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.content button{
+  border: 1px solid black;
+  background: #fff;
+  border-radius: 10px;
+  padding: 13px;
+  width: 140px;
+  box-shadow: -1px 0px 1px rgba(0,0,0,0.1);
+  font-weight: bold;
+  font-family: ubuntu;
+  letter-spacing: 1px;
+  color: black;
+  margin-top: 30px;
+  margin-left: 40%;
+  margin-bottom: 0;
+}
+
+/* Removing Yellow chrome autocomplete color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+-webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+/*============= Appointments =============*/
+
+.appointments{
+background: #fff;
+  max-width: 670px;
+  margin: 30px auto;
+  padding:  20px 30px;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+
+.appointments ul{
+  list-style-type: none;
+  padding: 0;
+}
+.appointments li{
+    padding: 20px;
+    background: #f6f6f6;
+    font-size: 20px;
+    color: black;
+    position: relative;
+    border-bottom: 1px solid #e6e6e6;
+  }
+  
+  .appointments li:nth-child(even){
+    padding: 20px;
+    background: #f2f2f2;
+  }
+  
+  .appointments li span{
+    display: block;
+  }
+  
+  .appointments span:nth-child(2){
+    font-size: 20px;
+    margin-top: 0px;
+  }
+  
+  .appointments li div{
+    position: absolute;
+    top: 0;
+    right: 0px;
+    background: rgba(255,255,255,0.6);
+    width: 40px;
+    text-align: center;
+    padding: 10px 0;
+    font-weight:  bold;
+    cursor:  pointer;
+  }
+ 
+  
+
+
+/*============= TOP SCROLL =============*/
+
+.top-scroll svg.svg-inline--fa {
+  font-size: 3rem;
+  height: 1.7rem;
+  color: #53595f;
+  background: white;
+}
+a.top-scroll {
+  right: 1.2rem;
+  bottom: 1.2rem;
+  position: fixed;
+  opacity: .3;
+  z-index: 1000;
+  display: none;
+}
+a.top-scroll:hover {
+  opacity: .5;
+}
+
+/*============= MEDIA QUERIES
+
+Devices under 992px (lg) 
+@media (max-width: 991px) {
+  .caption h1 {
+    font-size: 3.5rem;
+    letter-spacing: .2rem;
+    padding-bottom: .8rem;
+  }
+  .caption h3 {
+    font-size: 2.2rem;
+    padding-bottom: 1.7rem;
+  }
+  .btn-lg {
+    padding: .7rem 1.2rem;
+    font-size: 1rem;
+  }
+  .narrow h1 {
+    font-size: 2.1rem;
+  }
+}
+
+Devices under 768px (md) 
+@media (max-width: 767px) {
+  .caption h1 {
+    font-size: 2.7rem;
+    letter-spacing: .15rem;
+    padding-bottom: .5rem;
+  }
+  .caption h3 {
+    font-size: 1.7rem;
+    padding-bottom: 1.2rem;
+  }
+  .btn-lg {
+    padding: .6rem 1.1rem;
+    font-size: 1rem;
+  }
+  .narrow h1 {
+    font-size: 1.8rem;
+  }
+
+  footer .content{
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.1)
+  }
+  .clients img {
+    max-width: 50%;
+    margin: 0 auto;
+  }
+  .top-scroll {
+    display: none!important;
+  }
+}
+
+Devices under 576px (sm) 
+@media (max-width: 575px) {
+  .caption h1 {
+    font-size: 1.9rem;
+    letter-spacing: .1rem;
+    padding-bottom: .4rem;
+  }
+  .caption h3 {
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+  }
+  .btn-lg {
+    padding: .4rem .9rem;
+    font-size: .9rem;
+  }
+  .narrow {
+    width: 85%;
+  }
+  }
+ =============*/

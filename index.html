@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Adelia.lt</title>
+	<link rel="shortcut icon" href="img/logo.png">
+	<link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/lightbox.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+	<link rel="stylesheet" href="css/arrow.css">
+	<link rel="stylesheet" href="css/fixed.css">
+	<link rel="stylesheet" href="css/waypoints.css">
+	<script src="https://www.gstatic.com/firebasejs/5.8.3/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/5.8.3/firebase-firestore.js"></script>
+	<script src="js/jquery.min.js"></script>
+
+</head>
+<body data-spy="scroll" data-target="#navbarResponsive">
+<div id="home">
+
+<!--- Navigation -->
+<nav class="navbar navbar-expand-lg fixed-top">
+<div class="container-fluid">
+	<a class="navbar-brand" href="#fixed-background">Adelia</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+		<span class="custom-toggler-icon"><i class="fas fa-bars"></i></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item">
+				<a class="nav-link" href="#home">Pradžia</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#fixed-background">Apie Mus</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#portfolio">Galerija</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#team">Specialistai</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#add-name-form">Registracija</a>
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link" href="/bookings.html" data-target="modal-login">Prisijungti</a>
+			</li>
+		</ul>
+	</div>
+</div>
+</nav>
+<!--- End Navigation -->
+
+<!-- End of Login modal -->
+
+<div class="video-background">
+	<div class="video-wrap">
+		<div id="video">
+			<video id="bgvid" playsinline autoplay muted loop>
+				<source src="img/Woman Getting A Haircut.mp4" type="video/mp4">
+			</video>
+		</div> 
+	</div> 
+</div> 
+
+<!--- Start Landing Page Caption -->
+<div class="caption text-center">
+
+	<div class="os-animation" data-animation="bounceInUp" data-delay=".6s">
+		<h1>Adelia</h1>
+	</div>
+
+	<div class="os-animation" data-animation="bounceInUp" data-delay=".8s">
+		<h3>Grožio Salonas </h3>
+	</div>
+			
+	<div class="os-animation" data-animation="bounceInUp" data-delay="1s">
+		<a class="btn btn-outline-light btn-lg" href="#fixed-background">Daugiau</a>
+	</div>
+
+</div>
+<!--- End Landing Page Caption -->
+
+	<!--- Bouncing Down Arrow -->
+	<a class="down-arrow" href="#fixed-background">
+		<div class="arrow bounce d-none d-md-block">
+			<i class="fas fa-angle-down" aria-hidden="true"></i>
+		</div>
+	</a>
+
+</div>
+<!--- End Home Section -->
+
+<div id="fixed-background" class="offset">
+<div class="feature">
+	<div class="os-animation" data-animation="fadeInUp">
+	<div class="narrow text-center">
+		<div class="col-12">
+				<h1>Adelia</h1>
+			<a href="#team"><img src="img/Background1.png"></a>
+			<p class="lead">Kvalifikuoti grožio srities specialistai suteiks platų spektrą grožio puoselėjimo paslaugų: plaukų kirpimas, dažymas, plaukų atstatymas ir gydymas, rankų ir kojų priežiūra, veido ir kūno puoselėjimas ir masažo paslaugos. Tik čia rasite įvairiapusę informaciją apie teikiamas paslaugas, jų išskirtinumą ir naudojamą kosmetiką.</p>
+			<a class="btn btn-secondary btn-sm" href="#team">Specialistai</a>
+			<a class="btn btn-turquoise btn-sm" href="#contact">Kontaiktai</a>
+		</div>
+	</div>
+	</div>
+	</div>
+</div>
+
+<!--- Start Portfolio Section -->
+<div id="portfolio" class="offset">
+
+<div class="row padding">
+
+	<div class="col-12 os-animation" data-animation="fadeInUp">
+		<h3 class="heading">Galerija</h3>
+		<div class="heading-underline"></div>
+	</div>
+
+</div> <!--- End Row -->
+
+<!--- Start Portfolio Grid -->
+<div class="container-fluid">
+<div class="row no-padding">
+	
+	<div class="col-sm-6 col-md-3">
+	<div class="os-animation" data-animation="bounceInLeft" data-delay=".2s">
+		<div class="portfolio-item">
+			<a href="img/portfolio/1.png" data-lightbox="example-set" data-title="My Portfolio Image Description">
+				<img class="example-image" src="img/portfolio/1.png" alt="">
+			</a>
+		</div>
+	</div>
+	</div>
+
+	<div class="col-sm-6 col-md-3">
+	<div class="os-animation" data-animation="bounceInLeft">
+		<div class="portfolio-item">
+			<a href="img/portfolio/2.png" data-lightbox="example-set">
+				<img class="example-image" src="img/portfolio/2.png" alt="">
+			</a>
+		</div>
+	</div>
+	</div>
+
+	<div class="col-sm-6 col-md-3">
+	<div class="os-animation" data-animation="bounceInRight">
+		<div class="portfolio-item">
+			<a href="img/portfolio/3.png" data-lightbox="example-set">
+				<img class="example-image" src="img/portfolio/3.png" alt="">
+			</a>
+		</div>
+	</div>
+	</div>
+
+	<div class="col-sm-6 col-md-3">
+	<div class="os-animation" data-animation="bounceInRight" data-delay=".2s">
+		<div class="portfolio-item">
+			<a href="img/portfolio/4.png" data-lightbox="example-set">
+				<img class="example-image" src="img/portfolio/4.png" alt="">
+			</a>
+		</div>
+	</div>
+	</div>
+
+	<div class="col-sm-6 col-md-3">
+	<div class="os-animation" data-animation="bounceInLeft" data-delay=".2s">
+		<div class="portfolio-item">
+			<a href="img/portfolio/5.png" data-lightbox="example-set">
+				<img class="example-image" src="img/portfolio/5.png" alt="">
+			</a>
+		</div>
+	</div>
+	</div>
+
+	<div class="col-sm-6 col-md-3">
+	<div class="os-animation" data-animation="bounceInLeft">
+		<div class="portfolio-item">
+			<a href="img/portfolio/6.png" data-lightbox="example-set">
+				<img class="example-image" src="img/portfolio/6.png" alt="">
+			</a>
+		</div>
+	</div>
+	</div>
+
+	<div class="col-sm-6 col-md-3">
+	<div class="os-animation" data-animation="bounceInRight">
+		<div class="portfolio-item">
+			<a href="img/portfolio/7.png" data-lightbox="example-set">
+				<img class="example-image" src="img/portfolio/7.png" alt="">
+			</a>
+		</div>
+	</div>
+	</div>
+
+	<div class="col-sm-6 col-md-3">
+	<div class="os-animation" data-animation="bounceInRight" data-delay=".2s">
+		<div class="portfolio-item">
+			<a href="img/portfolio/8.png" data-lightbox="example-set">
+				<img class="example-image" src="img/portfolio/8.png" alt="">
+			</a>
+		</div>
+	</div>
+	</div>
+
+</div>
+</div>
+<!--- End Portfolio Grid -->
+
+<div class="os-animation" data-animation="fadeInUp">
+<div class="narrow text-center">
+	<div class="col-12">
+		<p class="lead">Kvalifikuoti grožio srities specialistai suteiks platų spektrą grožio puoselėjimo paslaugų: plaukų kirpimas, dažymas, plaukų atstatymas ir gydymas, rankų ir kojų priežiūra, veido ir kūno puoselėjimas ir masažo paslaugos. Tik čia rasite įvairiapusę informaciją apie teikiamas paslaugas, jų išskirtinumą ir naudojamą kosmetiką.</p>
+		<a class="btn btn-secondary btn-sm" href="#contact">Užsiregistruoti</a>
+	</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<!--- Start Team Section -->
+<div id="team" class="offset">
+
+<!--- Start Fixed Background IMG Light -->
+<div class="fixed-background">
+		<div class="video-background">
+				<div class="video-wrap">
+					<div id="video">
+						<video id="bgvid" playsinline autoplay muted loop>
+							<source src="img/Woman Getting A Haircut.mp4" type="video/mp4">
+						</video>
+					</div>
+				</div> 
+<div class="row light">
+
+	<div class="col-12 os-animation" data-animation="fadeInUp">
+		<h3 class="heading" id="black-heading">Grožio ekspertai</h3>
+		<div class="heading-underline"></div>
+	</div>
+
+	<div class="col-md-12">
+		<div class="os-animation" data-animation="fadeInUp">
+		<div id="team-slider" class="owl-carousel owl-theme">
+
+			<div class="card text-center">
+				<img class="card-img-top" src="img/team/team1.png" alt="">
+				<div class="card-body">
+					<h4>Jonas</h4>
+					<h5>Plataus profilio kirpėjas</h5>
+					<p>Plataus profilio kirpėjas. Baigęs Femina Bona meistrų akademiją.</p>
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+					<a href="#"><i class="fab fa-linkedin"></i></a>
+				</div>
+			</div>
+
+			<div class="card text-center">
+				<img class="card-img-top" src="img/team/team2.png" alt="">
+				<div class="card-body">
+					<h4>Laura</h4>
+					<h5>Plataus profilio meistrė</h5>
+					<p>Plataus profilio meistrė. Baigusi studijas Vilniaus universitete.</p>
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+					<a href="#"><i class="fab fa-linkedin"></i></a>
+				</div>
+			</div>
+
+			<div class="card text-center">
+				<img class="card-img-top" src="img/team/team3.png" alt="">
+				<div class="card-body">
+					<h4>Lukas</h4>
+					<h5>Kirpėjas</h5>
+					<p>Draugiškas, linksmas, charizmatiškas, atviras naujovėms.</p>
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+					<a href="#"><i class="fab fa-linkedin"></i></a>
+				</div>
+			</div>
+
+			<div class="card text-center">
+				<img class="card-img-top" src="img/team/Adelia.png" alt="">
+				<div class="card-body">
+					<h4>Adelia Wilson</h4>
+					<h5>Vadovė</h5>
+					<p>Adelia nuosekliai šioje srityje dirba jau dešimt metų.</p>
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+					<a href="#"><i class="fab fa-linkedin"></i></a>
+				</div>
+			</div>
+
+		</div>
+		</div>
+	</div>
+
+</div> 
+
+		
+	</div> 
+
+</div>
+<!--- End Fixed Background IMG Light -->
+
+</div>
+
+
+<!--- Start Skills Section -->
+<div id="skills" class="offset">
+
+<!--- Start Jumbotron -->
+<div class="jumbotron">
+<div class="narrow">
+
+	<div class="os-animation" data-animation="fadeInUp">
+	<div class="row text-center">
+
+		<div class="col-sm-6 col-md-3">
+			<div class="skill">
+				<span class="fa-layers fa-4x">
+					<i class="far fa-calendar-alt"></i>
+				</span>
+				<h3><span class="counter">10</span></h3>
+				<p>METŲ PATIRTIS</p>
+			</div>
+		</div>
+
+		<div class="col-sm-6 col-md-3">
+			<div class="skill">
+				<span class="fa-layers fa-4x">
+					<i class="fas fa-cut"></i>
+				</span>
+				<h3><span class="counter">4</span></h3>
+				<p>GROŽIO SPECIALISTAI</p>
+			</div>
+		</div>
+
+		<div class="col-sm-6 col-md-3">
+			<div class="skill">
+				<span class="fa-layers fa-4x">
+					<i class="far fa-building" data-fa-transform="left-2"></i>
+				</span>
+				<h3><span class="counter">2</span></h3>
+				<p>SALONAI</p>
+			</div>
+		</div>
+
+		<div class="col-sm-6 col-md-3">
+			<div class="skill">
+				<span class="fa-layers fa-4x">
+					<i class="fas fa-angle-up" data-fa-transform="left-1"></i>
+				</span>
+				<h3><span class="counter">50</span></h3>
+				<p>PASLAUGU</p>
+			</div>
+		</div>
+
+	</div> <!--- End of Row -->
+	</div> <!--- End of Animation -->
+
+	<div class="os-animation" data-animation="fadeInUp">
+	<div class="narrow text-center">
+		<div class="col-12">
+			<p class="lead">Want to learn more about our design and development skills?</p>
+			<a class="btn btn-turquoise btn-sm" href="#contact">Susiekite su mumis</a>
+		</div>
+	</div>
+	</div>
+
+</div> <!--- End Narrow -->
+</div> <!--- End Jumbotron -->
+
+</div>
+<!--- End of Skills Section -->
+
+<!--- Start Clients Section -->
+<div id="clients" class="offset">
+
+<div class="container-fluid">
+<div class="row padding">
+
+	<div class="col-12 os-animation" data-animation="fadeInUp">
+		<h3 class="heading">Musu Klientai</h3>
+		<div class="heading-underline"></div>
+	</div>
+
+	<div class="col-md-12">
+		<div class="os-animation" data-animation="fadeInUp">
+		<div id="clients-slider" class="owl-carousel owl-theme">
+
+			<div class="row clients">
+				<div class="col-md-4">
+					<img src="img/clients/client1.png" alt="">
+				</div>
+				<div class="col-md-8">
+					<blockquote>
+						<i class="fas fa-quote-left"></i>
+						I see Nuno support as more of a partner to my company than a resource. I can pick up the phone and talk to anyone at any time and the way that they interact with us as a business makes it really simple.
+						<hr class="clients-hr">
+						<cite>&#8212; Eric, Small Business Owner</cite>
+					</blockquote>
+				</div>
+			</div>
+
+			<div class="row clients">
+				<div class="col-md-4">
+					<img src="img/clients/client2.png" alt="">
+				</div>
+				<div class="col-md-8">
+					<blockquote>
+						<i class="fas fa-quote-left"></i>
+						The great thing about Nuno is it's not just a design, it's a responsive Bootstrap theme with animation. Nuno's layout is seamless the smooth parallax scrolling and a pop-up portfolio section for my images.
+						<hr class="clients-hr">
+						<cite>&#8212; Rachel, Professional Photographer</cite>
+					</blockquote>
+				</div>
+			</div>	
+
+			<div class="row clients">
+				<div class="col-md-4">
+					<img src="img/clients/client3.png" alt="">
+				</div>
+				<div class="col-md-8">
+					<blockquote>
+						<i class="fas fa-quote-left"></i>
+						This theme is fantastic!  It has all of the great website elements found throughout professional templates.  I've learned a lot through developing and designing it while adding my own touches to the design.
+						<hr class="clients-hr">
+						<cite>&#8212; Ricky, Aspiring Developer</cite>
+					</blockquote>
+				</div>
+			</div>
+
+		</div> <!--- End Clients Slider -->
+		</div> <!--- End Animation -->
+	</div> <!--- End col-md-12 -->
+
+</div> <!--- End of Row -->
+</div> <!--- End of Container -->
+
+</div>
+
+
+<!--- Start Contact Section -->
+<div id="contact" class="offset">
+
+<footer>
+
+
+<div class="row">
+
+	<div class="col-md-5">
+		<h3>Kontaktai</h3>
+		<p>Kvalifikuoti grožio srities specialistai suteiks platų spektrą grožio puoselėjimo paslaugų: plaukų kirpimas, dažymas, plaukų atstatymas ir gydymas, rankų ir kojų priežiūra, veido ir kūno puoselėjimas ir masažo paslaugos. Tik čia rasite įvairiapusę informaciją apie teikiamas paslaugas, jų išskirtinumą ir naudojamą kosmetiką.</p>
+		<p>Gedimino pr. 1<br>Vilnius, Lietuva</p>
+		<p>(888) 888-8888<br>email@adelia.com</p>
+		<a href="#"><i class="fab fa-facebook-square"></i></a>
+		<a href="#"><i class="fab fa-instagram"></i></a>
+		<a href="#"><i class="fab fa-linkedin"></i></a>
+	</div>
+
+
+	
+	<div class="col-md-7">
+		<h3>Užsiregistruokite vizitui pas mus</h3>
+
+		<div class="content">
+
+            <form id="add-name-form">
+                <input type="text" name="name" placeholder="Vardas" required maxlength="10" oninvalid="this.setCustomValidity('Prašom įrašyti Vardą')"
+				oninput="setCustomValidity('')">
+                <input type="text" name="second" placeholder="Pavarde"required minlength="2" maxlength="20" oninvalid="this.setCustomValidity('Prašom įrašyti Pavardę')"
+				oninput="setCustomValidity('')">
+				<input type="date" name="date" id="datetimepicker3" placeholder="Pasirinkite datą" oninvalid="this.setCustomValidity('Prašom pasirinkti jums tinkančią datą')"
+				oninput="setCustomValidity('')"  onfocus="(this.type='Pasirinkite datą')"  >
+                <input type="nuber"name="number" placeholder="Tel.Nr" required minlength="9" maxlength="9" oninvalid="this.setCustomValidity('Prašom įrašyti Tel.Nr')"
+				oninput="setCustomValidity('')" >
+                <input type="text" name="text" placeholder="Žinute"  maxlength="150" >
+                <button>Užsiregistruoti</button>
+            </form>
+
+
+        </div>
+
+
+	</div>
+
+	<hr class="socket">
+	&copy; Adelia
+
+</div> <!--- End of Row -->
+
+<script>
+	// Initialize Firebase
+	var config = {
+		apiKey: "AIzaSyDR6rfRpFBIeiekT4HqpE93hSrOEd_1gQQ",
+		authDomain: "adelia.firebaseapp.com",
+		databaseURL: "https://adelia.firebaseio.com",
+		projectId: "adelia",
+		storageBucket: "adelia.appspot.com",
+		messagingSenderId: "265238951536"
+	};
+	firebase.initializeApp(config);
+	const db = firebase.firestore();
+	db.settings({ timestampsInSnapshots: true }); 
+</script>
+<script src="app.js"></script>
+</footer> <!--- End of Footer -->
+
+</div>
+<!--- End Contact Section -->
+
+<!--- Top Scroll -->
+<a href="#home" class="top-scroll">
+	<i class="fas fa-angle-up"></i>
+</a>
+<!--- End of Top Scroll -->
+
+
+<!--- Script Source Files -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.6.3/js/all.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/waypoints.js"></script>
+<script src="js/lightbox.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/jquery.counterup.js"></script>
+<script src="js/validator.js"></script>
+<script src="js/contact.js"></script>
+<!--- End of Script Source Files -->
+<script type="text/javascript">
+	$(document).ready(function () {
+
+	//Allows to choose day only today and max two months in the future
+		$('#datetimepicker3').datetimepicker({
+			 format:'Y-m-d',
+			 timepicker:false,
+			 minDate:'-1970/01/01', //today is minimum date
+			 maxDate:'+1970/03/02' //2 months from today is maximum date
+		});
+	});
+</script>
+
+</body>
+<!--Jquery plugin for date-->
+<link rel="stylesheet" type="text/css" href="css/jquery.datetimepicker.min.css"/>
+<script src="js/jquery.datetimepicker.js"></script>
+
+
+</html>
