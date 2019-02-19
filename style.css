@@ -453,7 +453,6 @@ footer h3 {
   width: 140px;
   box-shadow: -1px 0px 1px rgba(0,0,0,0.1);
   font-weight: bold;
-  font-family: ubuntu;
   letter-spacing: 1px;
   color: solid black;
   margin-top: 30px;
@@ -571,3 +570,29 @@ a.top-scroll:hover {
     width: 85%;
   }
   }
+
+  /*===== MEDIA QUERIES FOR FORM SUBMIT BUTTON =====*/
+
+/*===IPHONE 6/7/8 Plus===*/
+@media (max-width: 414px){
+  .content button{
+    width: 140px;
+    margin-left: 24%;
+  }
+
+/*===IPHONE 6/7/8/X===*/
+@media (max-width: 375px){
+  .content button{
+    width: 140px;
+    margin-left: 20%;
+  }
+
+  /*===IPHONE 5 and SE ===*/
+  @media (max-width: 320px) {
+    .content button{
+      width: 140px;
+      margin-left: 10%;
+    }
+  }
+
+}
